@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:matterActivity="yktong.com.godofdog.fragment.MatterManageProductFragment">
+
+    <LinearLayout
+        android:id="@+id/top1"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button_list"
+        android:background="@color/theme_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_use_times"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用次数"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_content" />
+
+            <ImageView
+                android:id="@+id/iv_ut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_content_split"
+                android:src="@mipmap/icon_px_def" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_upload_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上传时间"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_content" />
+
+
+            <ImageView
+                android:id="@+id/iv_ult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_content_split"
+                android:src="@mipmap/icon_px_def" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/list_view_with_empty_view_fragment_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="暂无数据,点击刷新"
+        android:textColor="#c9c9c9"
+        android:textSize="20sp" />
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_view_with_empty_view_fragment_ptr_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top1"
+        android:background="@color/content_split_gray"
+        cube_ptr:ptr_duration_to_close_either="1000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="true"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        cube_ptr:ptr_resistance="1.7">
+
+
+        <ListView
+            android:id="@+id/lv_matter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_content_split"
+            android:background="@color/theme_white"
+            android:choiceMode="singleChoice"
+            android:divider="@color/content_split_gray"
+            android:dividerHeight="@dimen/margin_content_split"
+            android:fadingEdge="none"
+            android:scrollbarStyle="outsideOverlay" />
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+</RelativeLayout>

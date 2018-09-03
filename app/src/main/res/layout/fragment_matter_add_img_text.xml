@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_split_gray"
+    android:orientation="vertical"
+    tools:matterActivity="yktong.com.godofdog.fragment.MatterAddImgTextFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_sclx"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_list"
+            android:layout_marginTop="@dimen/margin_content_split"
+            android:background="@color/theme_white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_content"
+                android:layout_weight="1"
+                android:background="@color/theme_white"
+                android:text="素材类型"
+                android:textColor="@color/text_black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_sclx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/text_black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_left_content"
+                android:src="@mipmap/icon_arr" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_content_split"
+            android:background="@color/theme_white"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_content"
+                    android:layout_marginRight="@dimen/margin_left_content"
+                    android:layout_marginTop="@dimen/margin_content_split"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="此刻的想法 ......"
+                    android:lineSpacingExtra="5dp"
+                    android:maxLength="35"
+                    android:minHeight="66dp"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_content" />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gv_pics"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="@dimen/margin_left_content"
+                android:layout_marginRight="@dimen/margin_left_content"
+                android:layout_marginTop="10dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="10dp">
+
+            </GridView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_button_list"
+            android:layout_marginTop="@dimen/margin_content_split"
+            android:background="@color/theme_white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_content"
+                android:layout_weight="1"
+                android:background="@color/theme_white"
+                android:text="作者"
+                android:textColor="@color/text_black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_another"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_content"
+                android:layout_marginRight="@dimen/margin_left_content"
+                android:textColor="@color/text_black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_nav_bar"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape_login"
+                android:gravity="center"
+                android:paddingLeft="100dp"
+                android:paddingRight="100dp"
+                android:text="提 交"
+                android:textColor="@color/theme_white"
+                android:textSize="@dimen/text_size_title" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

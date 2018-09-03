@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_split_gray"
+    android:orientation="vertical"
+    tools:context="yktong.com.godofdog.activity.manage.ManageUserLineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_blue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_nav_bar"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="轨迹管理"
+                android:textColor="@color/theme_white"
+                android:textSize="@dimen/text_size_title" />
+
+            <space.eileen.free_util.ButtonBackView
+                android:layout_width="@dimen/height_nav_bar"
+                android:layout_height="@dimen/height_nav_bar"
+                android:gravity="center" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/choose_dept_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_button_list"
+        android:background="@color/theme_white"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="部门"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_size_content" />
+
+        <TextView
+            android:id="@+id/dept_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icon"
+            android:text="全部部门"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_size_content" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icon_arr" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_content_split"
+        android:background="@color/content_split_gray"
+        android:orientation="vertical"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/list_view_with_empty_view_fragment_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="暂无数据,点击刷新"
+            android:textColor="#c9c9c9"
+            android:textSize="20sp" />
+
+        <in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/list_view_with_empty_view_fragment_ptr_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/content_split_gray"
+            cube_ptr:ptr_duration_to_close_either="1000"
+            cube_ptr:ptr_keep_header_when_refresh="true"
+            cube_ptr:ptr_pull_to_fresh="true"
+            cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+            cube_ptr:ptr_resistance="1.7">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_white">
+
+                <ListView
+                    android:id="@+id/lv_line_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_left_content"
+                    android:layout_marginRight="@dimen/margin_left_content"
+                    android:background="@color/theme_white"
+                    android:choiceMode="singleChoice"
+                    android:divider="@color/content_split_gray_line"
+                    android:dividerHeight="0.5dp"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"
+                    android:scrollbarStyle="outsideOverlay" />
+            </FrameLayout>
+        </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+    </RelativeLayout>
+</LinearLayout>

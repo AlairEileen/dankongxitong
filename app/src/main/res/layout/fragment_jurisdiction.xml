@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_split_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/content_split_gray_line"></LinearLayout>
+
+        <GridView
+            android:id="@+id/gv_user"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/margin_left_content"
+
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingBottom="@dimen/margin_left_content"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/margin_content_split"></GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/content_split_gray_line"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_group"
+            android:layout_width="@dimen/width_90"
+            android:layout_height="match_parent"
+            android:divider="@color/content_split_gray_line"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"></ListView>
+
+        <ListView
+            android:id="@+id/lv_jurisdiction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_white"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="@dimen/margin_content_split"
+            android:paddingRight="@dimen/margin_left_content"
+            android:scrollbars="none"></ListView>
+    </LinearLayout>
+
+
+</LinearLayout>

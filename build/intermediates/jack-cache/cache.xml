@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        revision="25.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gson-2.8.0-1bcda913b0e4d9c7c3e65c56ebbc67b45d8d9f1b.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/lite-orm-1.9.2.jar"
+        revision="25.0.3"
+        sha1="7691b96fd27f2991cb4779c22f9089bf268945c8">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/lite-orm-1.9.2-c55025012f38fbbb22974dd971226f03903ee390.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/rxandroid-1.2.0.jar"
+        revision="25.0.3"
+        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/rxandroid-1.2.0-4d27c6da8f66b6858a8bab9e26afe81607919853.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/cc3bb59462a0c6d22b765eabb13f43257428efb9/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f08f73ea93cd0d7ac9ba3672229518115bcc8efc.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        revision="25.0.3"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-3.4.2-3786c43ef169be0622a177ede2ea1be331dcba16.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/6166125feb02a3dd4ffda37a5a3f7387889666c0/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-49b2f58347e8a8d8534eb0eb655e31b48e452cd7.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-with-mta/1.4.0/55f95375f268e0cd7ebe65f433969233990b12b7/wechat-sdk-android-with-mta-1.4.0.jar"
+        revision="25.0.3"
+        sha1="55f95375f268e0cd7ebe65f433969233990b12b7">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/wechat-sdk-android-with-mta-1.4.0-1f74cc04467629e0dca1c2e3fc63be58a99b3613.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/eb309cb765c91970c678606aaff19804e262a9ff/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74f0da250830cc01ffcac052915c15ab55af0fb3.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        revision="25.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-26.0.0-alpha1-7df4c91ce7438f319cafb905a0fdfd074c6f3b4a.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/8ed36dd693da1d2a1ff2f7335f1f58a42a9837ff/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-ebd66cdab3cc565777e462c0527b8380cf9791d5.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/7629b9c8e7a5f4a3af76023cd8941408b265d3b5/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="67dbc92a167f074260d9fb594ebe0ff307c9fa47">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-296f3b0cae61e715442f3b0b45e365259045b66c.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        revision="25.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/eventbus-3.0.0-6c3ebb5e89b2aba929839be74509ad63851fda1b.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.amap.api/search/5.3.1/b4e1d1d93f686f1a6efe4e49d798b27801d4d301/search-5.3.1.jar"
+        revision="25.0.3"
+        sha1="b4e1d1d93f686f1a6efe4e49d798b27801d4d301">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/search-5.3.1-9f29809df5a3ae89a3bd5ee5334dc363f5396195.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.amap.api/3dmap/5.3.0/134242459debbdb0f08856d8036e40b38f8d772b/3dmap-5.3.0.jar"
+        revision="25.0.3"
+        sha1="134242459debbdb0f08856d8036e40b38f8d772b">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/3dmap-5.3.0-48a563d45addd6f6f0ed10ba6b6ae675c5d27f2a.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-ebe737e0b56163b973d5b35e243311bd782cfddd.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/2b5d0e9bcf0afead1dd1b5dfc4d301721e3d970c/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="a9a0fd21db5442f0ceb80a6b6a3fa1d4594b66c1">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-197ab5695ae8dae01a859ae49c3768eef3ec58ad.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/a65eb9eaffa0fd46ee83bca0f80229d42f2e7181/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6c49cbb93661a0a1f6177f69fe9f315a609e9421.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/2b5d0e9bcf0afead1dd1b5dfc4d301721e3d970c/output/jars/libs/jcore-android_v1.0.0.jar"
+        revision="25.0.3"
+        sha1="03c320fc818ad1c01721748a557b1b6445b9de44">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/jcore-android_v1.0.0-caedb5e8eb6325a3b5bd5f1c77e6a5f5257b5a10.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.amap.api/location/3.5.0/a02816310bcf897ef35496950110a65b495574a7/location-3.5.0.jar"
+        revision="25.0.3"
+        sha1="a02816310bcf897ef35496950110a65b495574a7">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/location-3.5.0-378650e11ed8be09a05821857e81a763d872773b.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/okhttp-3.3.1.jar"
+        revision="25.0.3"
+        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-3.3.1-92ccb02959620bcb81451a4aee1bd9ad71f94b1f.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/logCollector/build/intermediates/bundles/default/classes.jar"
+        revision="25.0.3"
+        sha1="555f8a69c301518b0b9780afef56c8a557977b73">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d39978f7899449ffffac998f89e26d85e67413d0.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/eileen/build/intermediates/bundles/default/classes.jar"
+        revision="25.0.3"
+        sha1="114123a912c1925ccfe98bd1c4d6ddb5e0e83009">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-1dfe8e6a8dfc31978fa0a54cd194e83c979458ee.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/gson-2.6.2.jar"
+        revision="25.0.3"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gson-2.6.2-9b6dd30feddce8e0622b0c1698925a9a23dd7c29.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/2fda6f9358d806c980cbef9abe44d64b8a3043b2/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="b1ec9b0702cb8cd3c3f58531193c7bfb089f1858">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74b595caf4ab6d2ae5c51ae0124cba29102c87c5.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/d3ce36d266ec19913c147f3373b21a9adc0f271d/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="4b025c568a4e97b63b8e137400bad367865d5c80">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-896a52cddaf899dd4a9b8ced6ffc231eed8c4d38.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/11b5e329d1da80ab203a6aa17c0c72e310c9f0f5/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-41eda676df1f448fa5e1e5662d9928e6cf73553e.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/a9be99e9cbbf75f5ba3aac55ff4f42f79ecdcfb2/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b6f1c845a26bcdece1754a757325cb00eb6f46b6.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/177c132be33eeaa49df8e620cdf328647bbf82f8/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d76619da42135b644f1ef684a67a5c2b43aa0caf.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.3"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-35220d2ddf514adc88e7ab8329ec1301e910d02c.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        revision="25.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/bolts-android-1.1.4-9129da732d55a529ef892fd1a5842986c3358f28.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/rxjava-1.1.6.jar"
+        revision="25.0.3"
+        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/rxjava-1.1.6-0254ba08294bfd59833f91fab189ae43b03b04de.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/Sunflower.jar"
+        revision="25.0.3"
+        sha1="4083a4f9ce52504595916209d87df4deeb9def6d">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/Sunflower-eb4a5f56d391cd13bcc4232f57be04a0070ffe60.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/additionnal.jar"
+        revision="25.0.3"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/additionnal-3c785005aa1c69a1a0e6b11d13af2508178b5bca.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.9.0-82a1bbeadd0f13e2b8b447cd1157a328719cd64d.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/d29c6ad1cbd83fc89ba8c8f2e8e7887b0162217c/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e0b79e6dd9cc98d61c2455e2feff12d38f1d48dd.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/Msc.jar"
+        revision="25.0.3"
+        sha1="107599302660b1577c1dbe10f1e8980434413a17">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/Msc-9c475a8c4147d4d640e58f1b93d037e2615854d2.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/1847c50dd8d5c6b0fadeabf94c15387ece74d957/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="c2e8743ade9fa15e1e4384629f4325ac810edb9c">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6987fc9dbb0ea37a755d01521f8f4b37631809c8.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/be89c0f73f53acee6339286ffd463595ff5868c4/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3781286a09164cd77e8834243c92e3255381d61c.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/c3b422d8f98e2ba3af0276744cb57189f8b6f67f/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="f9210f5ba642f4475daed55eebab0088a90b6844">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-540959eedefb389bfeb482dc3c7c9850a9b9b320.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/86b0461d2f1c7ca9a84636597d744f51632e3972/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-20448dac77616b191d4979f1a8544ccac676bdac.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/b95065aa9e8049ea92d0ec61594a8612845cef60/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3d6c6f225c2ea2550b7a21004a1bed4e36925d09.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/mail.jar"
+        revision="25.0.3"
+        sha1="414a5580e34540a60b9d6616e455c307829a123d">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/mail-32bed5a415f861e265222dc4ce14d9a44f5ec6a7.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/7c0c2814642a050d0de7b324032af329f733ac0a/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-c674559a3110493d92b8fdf47a296e49e9667b7b.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/cn.bmob.android/http-legacy/1.0/5320fd78dd7f154e586970d4f02befc9b58432aa/http-legacy-1.0.jar"
+        revision="25.0.3"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/http-legacy-1.0-cb9fc34d31ab41340e60859eb5afcb84f3a007f9.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/c3b422d8f98e2ba3af0276744cb57189f8b6f67f/output/jars/libs/jpush-android_v3.0.0.jar"
+        revision="25.0.3"
+        sha1="31a82a5c456ce4c8cf778a42a3a76f5319c7edda">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/jpush-android_v3.0.0-6d30197a4c1402d48c4b39a410d42cdedc8a1fef.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/BmobSDK_3.5.0_20160630.jar"
+        revision="25.0.3"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/BmobSDK_3.5.0_20160630-6558e4d9fff4dda9be0bd311cc2d19ce8e65dd72.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/4a613c0176bec64f0f072d5e2236153786dcea26/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-436b804e0ea5b4632cddd59e12d6e3ce85698bd2.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/lbsmodule_amap/build/intermediates/bundles/default/classes.jar"
+        revision="25.0.3"
+        sha1="5b90ea30b9b327d6f306d75c0b4fdd37b03a7d5d">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-047cbb4c817c5b6acf33fc34f985c2f47e3cfb77.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/2f8a39c8ce2429e666953111d1a291d12db1f41a/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-da9e4fc838ef279bc719e90d9c497008a2318d85.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/d0246c5833aae7261061d92ef2bf309b9ed10881/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-543eb9e925c1db3b46db8fa42e3caacb6dd87b9b.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/c2908b38ef0a20cecb68612ebbc690141f62422c/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="98b5309c8d368a7c83ca5f90e0c905044c195edd">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8424a744e6ca41f28c2b5d4bc3b5936676d02e7c.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/05af89721ffd93797898cf03ed3d10a0e5cffe19/output/jars/libs/okio-1.7.0.jar"
+        revision="25.0.3"
+        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.7.0-4339ebdeaba6069d0fc151ba8b56d338f77a133e.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/constraint-layout-solver-1.0.2-d5af83c851860570545dec7d8ef81a575f8aaa75.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/2bfa5afe1bbfb1552e340f458e23c1870658acba/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74fe7327eae704429aa1f5fd8c09b168e7806f94.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/gradle-3.2/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/glide-3.7.0-1c1ab33a5cff4e629b91013d91653b8c1092ec00.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/e371e035bb283927a8d953b7ada4cb3f131e81bc/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-2c210e826b2ec74371f4b707c9a33accb1792bf6.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/86319f1eb78c1b20076b18f2cbee487599af367d/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="c1def4f6e8a41985b7b7af4d3b5b5d94f61d01b0">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-56a8de36e912dc40f6674a18b9a3843bf133fcd7.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/lib/XposedBridgeApi-54.jar"
+        revision="25.0.3"
+        sha1="5f16da4d2ecb2c95be2556550e4a63461f43a99b">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/XposedBridgeApi-54-4acd981c5f468b8c83ae404490911e2371006a5d.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/Library/Android/sdk/platforms/android-25/android.jar"
+        revision="25.0.3"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-02d4716ef28b12d7f74d9708899ba852e2106d86.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/a8684710916de4e8c9e7ee73637b4f4ff1c4cbf9/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="c84446b3e55d81d6e2cb63ccccfe0868d12f9baa">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f6bb3d389aefbaba502503d6900a6fd9444bec01.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/.android/build-cache/859090fa1fd2b507c7eb31b4288ed8d6380db5a1/output/jars/classes.jar"
+        revision="25.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-af1a9bf7a2a8c0fb1044d2034d5a4d83044c0c70.jar" />
+    </item>
+    <item
+        jar="/Users/vampire/dankong/app/libs/activation.jar"
+        revision="25.0.3"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/vampire/dankong/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/activation-57add09fb973576e7f2ecac3e4b89def82b35105.jar" />
+    </item>
+
+</items>

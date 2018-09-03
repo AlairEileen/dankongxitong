@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/ll_up"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@null"></LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/ll_middle"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/ll_up"
+                android:background="@drawable/rounder_white_draw"></LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="-20dp"
+                android:background="@color/theme_white"
+                android:layout_below="@+id/ll_middle"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></LinearLayout>
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/down" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="207.5dp"
+            android:background="@drawable/rounder_white_draw"
+            android:orientation="vertical">
+            <LinearLayout
+                android:background="@color/theme_white"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="-20dp"
+                android:layout_width="match_parent"
+                android:layout_height="157.5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="插件下载提示"
+                    android:textColor="#333333"
+                    android:textSize="15sp" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="-5dp"
+                    android:layout_marginTop="-5dp"
+                    android:padding="35dp"
+                    android:scrollbars="none">
+
+                    <TextView
+                        android:id="@+id/tv_content"
+                        android:lineSpacingExtra="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#333333"
+                        android:textSize="14sp" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f4f9" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="下次再说"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="下载"
+                    android:textColor="@color/theme_blue"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

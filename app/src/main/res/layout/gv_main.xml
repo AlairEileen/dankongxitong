@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:paddingBottom="28dp"
+    android:background="@color/theme_white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="50dp"
+        android:gravity="center_horizontal|bottom"
+        android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/gv_label_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/gv_label_title"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="精准拓客"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#333333"
+        android:textSize="13sp" />
+
+
+</LinearLayout>

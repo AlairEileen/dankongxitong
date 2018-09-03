@@ -1,0 +1,7 @@
+#Mon Aug 07 15:50:41 CST 2017
+base.0=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android-3.0.8_583c6cf781e7fe276dfdd041b963ab68446c08e9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/2/jcore-android-1.1.6_6064714fe8dbd80d125fa57eab1e20253ee88559/classes.dex
+base.1=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/2/jcore-android-1.1.6_6064714fe8dbd80d125fa57eab1e20253ee88559
+file.0=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/2/jpush-android-3.0.8_583c6cf781e7fe276dfdd041b963ab68446c08e9/classes.dex

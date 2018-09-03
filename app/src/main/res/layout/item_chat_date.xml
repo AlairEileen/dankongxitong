@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <ImageView
+            android:id="@+id/avatar_iv"
+            android:src="@mipmap/pic_def"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/shape_iv"/>
+        <TextView
+            android:id="@+id/friend_nick_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:text="Mr.zhao"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/avatar_iv"
+            />
+        <TextView
+            android:id="@+id/last_date_tv"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="13sp"
+            android:layout_toRightOf="@id/avatar_iv"
+            android:layout_below="@+id/friend_nick_tv"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#999999"
+            android:text="hello"/>
+        <TextView
+            android:id="@+id/last_time_tv"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#bbbbbb"
+            android:text="10:07"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

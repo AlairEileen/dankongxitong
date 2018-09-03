@@ -1,0 +1,4 @@
+#Mon Aug 07 15:50:41 CST 2017
+base.0=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/Users/vampire/dankong/JPushExample(688510)/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

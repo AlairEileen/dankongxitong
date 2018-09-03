@@ -1,0 +1,2 @@
+include ':app', ':eileen', ':photo_viewer-release', ':JPushExample(689874)', ':lbsmodule_amap'
+include ':logCollector'

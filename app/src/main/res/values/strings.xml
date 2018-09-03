@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">动销一号</string>
+    <string name="marketingFragmentTitle">营销</string>
+    <string name="managementFragmentTitle">管理</string>
+    <string name="title_activity_toker_verify_content">TokerVerifyContentActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_id">57e3982d</string>
+    <string name="juhe_id">ffcfe82ad84b635f223c6f1180fb84d8</string>
+    <string name="we_chat_app_id">wx462da5b546f21d5c</string>
+    <string name="um_key">597ed49c3eae25412b00157a</string>
+</resources>

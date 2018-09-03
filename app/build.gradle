@@ -1,0 +1,151 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'key0'
+            keyPassword 'vampire'
+            storeFile file('/Users/vampire/Documents/godofdog.jks')
+            storePassword 'vampire'
+        }
+        debug {
+            keyAlias 'key0'
+            keyPassword 'vampire'
+            storeFile file('/Users/vampire/Documents/godofdog.jks')
+            storePassword 'vampire'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    packagingOptions{
+        exclude  'lib/x86/libRoadLineRebuildAPI.so'
+        exclude  'lib/x86/libGNaviUtils.so'
+        exclude  'lib/x86/libGNaviMapex.so'
+        exclude  'lib/x86/libGNaviSearch.so'
+        exclude  'lib/x86/libGNaviData.so'
+        exclude  'lib/x86/libGNaviMap.so'
+
+        exclude  'lib/armeabi-v7a/libRoadLineRebuildAPI.so'
+        exclude  'lib/armeabi-v7a/libGNaviUtils.so'
+        exclude  'lib/armeabi-v7a/libGNaviMapex.so'
+        exclude  'lib/armeabi-v7a/libGNaviSearch.so'
+        exclude  'lib/armeabi-v7a/libGNaviData.so'
+        exclude  'lib/armeabi-v7a/libGNaviMap.so'
+
+        exclude  'lib/armeabi/libRoadLineRebuildAPI.so'
+        exclude  'lib/armeabi/libGNaviData.so'
+        exclude  'lib/armeabi/libGNaviMapex.so'
+        exclude  'lib/armeabi/libGNaviMap.so'
+        exclude  'lib/armeabi/libGNaviSearch.so'
+        exclude  'lib/armeabi/libGNaviUtils.so'
+
+        exclude  'lib/arm64-v8a/libRoadLineRebuildAPI.so'
+        exclude  'lib/arm64-v8a/libGNaviData.so'
+        exclude  'lib/arm64-v8a/libGNaviMapex.so'
+        exclude  'lib/arm64-v8a/libGNaviMap.so'
+        exclude  'lib/arm64-v8a/libGNaviSearch.so'
+        exclude  'lib/arm64-v8a/libGNaviUtils.so'
+
+        exclude  'lib/x86_64/libRoadLineRebuildAPI.so'
+        exclude  'lib/x86_64/libGNaviData.so'
+        exclude  'lib/x86_64/libGNaviMapex.so'
+        exclude  'lib/x86_64/libGNaviMap.so'
+        exclude  'lib/x86_64/libGNaviSearch.so'
+        exclude  'lib/x86_64/libGNaviUtils.so'
+
+    }
+    defaultConfig {
+        applicationId "yktong.com.godofdog"
+        minSdkVersion 19
+        versionCode 16
+        versionName "1.2.4"
+        targetSdkVersion 19
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+        jackOptions {
+            enabled true;
+        }
+        android {
+            defaultConfig {
+                ndk {
+                    abiFilters "armeabi", "armeabi-v7a", "x86" , 'x86_64', 'mips', 'mips64'
+                }
+                manifestPlaceholders = [
+                        JPUSH_PKGNAME : "yktong.com.godofdog",//包名字
+                        JPUSH_APPKEY : "1aaf5d654271e72d45605021", //JPush上注册的包名对应的appkey.
+                        JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+                ]
+
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility org.gradle.api.JavaVersion.VERSION_1_8;
+        targetCompatibility org.gradle.api.JavaVersion.VERSION_1_8;
+    }
+    productFlavors {
+
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // liteOrm 依赖
+    compile files('libs/lite-orm-1.9.2.jar')
+    // eventBus 依赖
+    compile 'org.greenrobot:eventbus:3.0.0'
+    // okHttp3 依赖
+    compile 'com.squareup.okhttp3:okhttp:3.4.2'
+    // fresco 依赖
+    compile('com.facebook.fresco:fresco:0.9.0+') {
+        exclude group: 'com.nineoldandroids'
+    }
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.foamtrace:photopicker:1.0'
+    compile 'com.contrarywind:Android-PickerView:3.2.5'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'in.srain.cube:ptr-load-more:1.0.6'
+    compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    compile 'com.squareup.okio:okio:1.4.0'
+    compile 'cn.bmob.android:http-legacy:1.0'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    compile 'cn.jiguang.sdk:jpush:3.0.0'
+    // 此处以JPush 3.0.0 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.0.0'
+    // 此处以JCore 1.0.0 版本为例。
+    compile 'com.classic.adapter:commonadapter:1.8.1'
+    //项目中使用到 RecyclerView,需要添加依赖
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile project(':eileen')
+    compile project(':photo_viewer-release')
+    compile project(':logCollector')
+    compile project(':lbsmodule_amap')
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/mail.jar')
+    provided fileTree(include: ['*.jar'], dir: 'lib')
+    testCompile 'junit:junit:4.12'
+    compile 'com.zhy:base-rvadapter:3.0.3'
+}

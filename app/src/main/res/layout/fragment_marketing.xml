@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_blue">
+
+    <TextView
+        android:id="@+id/main_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/marketingFragmentTitle"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refresh_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_title_tv"
+        cube_ptr:ptr_duration_to_close_either="1000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="1.2"
+        cube_ptr:ptr_resistance="1.7">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scroll_market"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/temp_line_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_left_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/marketing_day_date_num_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/main_mouth_fans_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="今日数据+"
+                                android:textColor="#ffffff"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="1dp"
+                            android:layout_height="39dp"
+                            android:background="#fff" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/marketing_day_fans_num_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0"
+                                android:textColor="#ffffff"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/main_mouth_pay_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:maxLines="1"
+                                android:text="今日粉丝+"
+                                android:textColor="#ffffff"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/temp_line_down"
+                        android:layout_marginTop="23dp"
+                        android:background="@drawable/main_shape">
+
+                        <RelativeLayout
+                            android:id="@+id/ll_menu_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="77dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="38.5dp"
+                                android:layout_alignParentTop="true"
+                                android:background="@color/theme_blue"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="38.5dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/content_split_gray"></LinearLayout>
+                            <!--今日数据的布局-->
+                            <LinearLayout
+                                android:id="@+id/ll_menu_info"
+                                android:layout_width="match_parent"
+                                android:layout_height="77dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@drawable/main_tab_shape"
+                                android:gravity="center_vertical">
+                                <!--今日朋友圈-->
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="53dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/marketing_day_sns_num_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="0"
+                                        android:textColor="#036eb9"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="4dp"
+                                        android:text="今日朋友圈+"
+                                        android:textColor="#666666"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="52dp"
+                                    android:background="@color/content_split_gray"></LinearLayout>
+                                <!--今日营销-->
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="53dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/marketing_day_marketing_num_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="0"
+                                        android:textColor="#036eb9"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="4dp"
+                                        android:text="今日营销+"
+                                        android:textColor="#666666"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0.5dp"
+                                    android:layout_height="52dp"
+                                    android:background="@color/content_split_gray"></LinearLayout>
+                                <!--今日互动-->
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="53dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/marketing_day_interaction_num_tv"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:text="0"
+                                        android:textColor="#036eb9"
+                                        android:textSize="18sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_horizontal"
+                                        android:layout_marginTop="4dp"
+                                        android:text="今日互动+"
+                                        android:textColor="#666666"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                        <!--分割线-->
+                        <LinearLayout
+                            android:id="@+id/split_view_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_below="@+id/ll_menu_info"
+                            android:background="@color/content_split_gray"
+                            android:orientation="vertical" />
+
+                        <!--营销布局-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="92dp"
+                            android:orientation="vertical">
+                            <!--精准拓客-->
+
+
+                            <LinearLayout
+                                android:id="@+id/ll_jztk"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_jztk" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content_split"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="18dp"
+                                        android:text="精准拓客"
+                                        android:textColor="@color/text_black"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="精准资源导入，智能添加客户" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!--分割线-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5sp"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@color/content_split_gray_line"
+                                android:orientation="vertical" />
+                            <!--社群拓客-->
+                            <LinearLayout
+                                android:id="@+id/ll_sqtk"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_sqtk" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content_split"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="18dp"
+                                        android:text="社群拓客"
+                                        android:textColor="@color/text_black"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="自动化添加社群中的意向客户" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--分割线-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5sp"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@color/content_split_gray_line"
+                                android:orientation="vertical" />
+
+                            <!--定时营销-->
+                            <LinearLayout
+                                android:id="@+id/ll_dsyx"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_dhyx" />
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content_split"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="18dp"
+                                        android:text="定时营销"
+                                        android:textColor="@color/text_black"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="定时定向营销文字图片信息" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--分割线-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5sp"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@color/content_split_gray_line"
+                                android:orientation="vertical" />
+
+                            <!--定时互动-->
+                            <LinearLayout
+                                android:id="@+id/ll_dshd"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_dshd" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content_split"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="18dp"
+                                        android:text="定时互动"
+                                        android:textColor="@color/text_black"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="定时点赞评论" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!--分割线-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5sp"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@color/content_split_gray_line"
+                                android:orientation="vertical" />
+
+                            <!--朋友圈-->
+                            <LinearLayout
+                                android:id="@+id/ll_pyq"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_pyq" />
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="@dimen/margin_left_content_split"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="18dp"
+                                            android:text="朋友圈+"
+                                            android:textColor="@color/text_black"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="定时更新朋友圈的内容" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/imageView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_marginRight="@dimen/margin_left_content"
+                                        android:src="@mipmap/hot" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+                            <!--分割线-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5sp"
+                                android:layout_marginLeft="@dimen/margin_left_content"
+                                android:layout_marginRight="@dimen/margin_left_content"
+                                android:background="@color/content_split_gray_line"
+                                android:orientation="vertical" />
+                            <!--小程序-->
+                            <LinearLayout
+                                android:id="@+id/ll_xcx"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/list_button_height">
+
+                                <LinearLayout
+                                    android:layout_width="25dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/margin_left_content"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/sy_icon_xcx" />
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="@dimen/margin_left_content_split"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="18dp"
+                                            android:text="小程序"
+                                            android:textColor="@color/text_black"
+                                            android:textSize="14sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="10dp"
+                                            android:text="定时定向分享小程序" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:id="@+id/imageView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_marginRight="@dimen/margin_left_content"
+                                        android:src="@mipmap/news" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </FrameLayout>
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+</RelativeLayout>
